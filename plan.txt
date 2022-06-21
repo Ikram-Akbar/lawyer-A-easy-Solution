@@ -22,4 +22,14 @@ _________________
     - Contact Us
 )
 ===============================
+*Banner-part 
+__________________
+- collect the background image
+- icon 
+- align item center using bootstrap 
+- animation
+- position 
+
+===============================
+
 

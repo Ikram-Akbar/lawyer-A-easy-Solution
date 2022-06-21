@@ -38,14 +38,36 @@
     left: 50%;
     bottom: 12%;
     transform: translate(-50%, -50%);
-    animation: upDown 1.25s linear alternate infinite;
+    animation: upDown 2s linear alternate infinite;
 }
 
 @keyframes upDown {
-    0%{
-        top:0px;
+    0% {
+        top: 60px;
     }
-    100%{
-        bottom: 10px
+
+    100% {
+        bottom: 10px;
+
     }
+}
+
+/* who we are section */
+.custom-who-we-are {}
+
+.custom-who-we-are span {
+    margin-bottom: 20px;
+    display: block;
+    width: 95px;
+    height: 5px;
+    background: #f15828;
+}
+
+.custom-who-we-are h1 {
+    margin-bottom: 20px;
+    color: #1f4f87;
+}
+
+.custom-who-we-are p {
+    color: #8d8d87;
 }
