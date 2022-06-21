@@ -9,6 +9,7 @@
 /* navbar start here  */
 .custom-nav-item li a {
     color: rgb(40 55 126) !important;
+    font-weight: 500 !important;
 }
 
 /* banner section */
