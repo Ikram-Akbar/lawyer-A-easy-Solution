@@ -1,0 +1,25 @@
+21.06.22
+psd to html convert 
+project : lawyer 
+---------------
+Work procedure : 
+1. Create the project folder 
+2.link the essential cdn file 
+3.extract the photo from psd
+4.font/ text collect
+=======================
+
+Project in Code : 
+=======================
+* Header part 
+_________________
+- logo 
+- nav item ( 
+    - Who We Are  
+    - Our Attorneys       
+    - What We Do        
+    - News & Insights        
+    - Contact Us
+)
+===============================
+
