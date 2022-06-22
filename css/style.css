@@ -125,10 +125,15 @@
 .text-content {
     position: absolute;
     left: 50%;
-    top: 50%;
+    bottom: 30%;
     transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.4s all ease-in-out;
 }
-
+.content:hover .text-content{
+    opacity: 1;
+    bottom: 40%;
+}
 .text-content h1 {
     color: #fff;
     font-size: 30px;
@@ -136,9 +141,15 @@
 
 .wwd-icon {
     position: absolute;
-    left: 50%;
+    left: 30%;
     bottom: 50px;
     transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.4s all ease-in-out;
+}
+.content:hover .wwd-icon{
+    opacity: 1;
+    left: 50%;
 }
 
 .wwd-icon i {
