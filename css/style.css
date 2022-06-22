@@ -74,3 +74,35 @@
 .custom-who-we-are p {
     color: #8d8d87;
 }
+
+/* What we do part  */
+.what-we-do {
+    background-color: #f7f8f8;
+}
+
+.top-content {}
+
+.top-content span {
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #f05428;
+    margin: auto;
+}
+
+.top-content h1 {
+    color: #1f4f87;
+    margin: 15px 0px 40px;
+}
+
+.content {}
+
+.content img {}
+
+.text-content {}
+
+.text-content h1 {}
+
+.wwd-icon {}
+
+.wwd-icon i {}
