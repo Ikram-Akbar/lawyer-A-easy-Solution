@@ -80,7 +80,6 @@
     background-color: #f7f8f8;
 }
 
-.top-content {}
 
 .top-content span {
     display: block;
@@ -95,14 +94,54 @@
     margin: 15px 0px 40px;
 }
 
-.content {}
+.content {
+    position: relative;
+}
 
-.content img {}
+.content::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    transition: 0.4s all ease-in-out;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+0,313686+85&0+0,1+86 */
+    background: -moz-linear-gradient(top, rgba(125, 185, 232, 0) 0%, rgba(49, 54, 134, 0.99) 85%, rgba(49, 54, 134, 1) 86%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(125, 185, 232, 0) 0%, rgba(49, 54, 134, 0.99) 85%, rgba(49, 54, 134, 1) 86%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(125, 185, 232, 0) 0%, rgba(49, 54, 134, 0.99) 85%, rgba(49, 54, 134, 1) 86%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#007db9e8', endColorstr='#313686', GradientType=0);
+    /* IE6-9 */
 
-.text-content {}
+}
+.content:hover::before{
+    height: 100%;
+}
 
-.text-content h1 {}
 
-.wwd-icon {}
+.text-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
-.wwd-icon i {}
+.text-content h1 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.wwd-icon {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+}
+
+.wwd-icon i {
+    color: #fff;
+    font-size: 22px;
+}
