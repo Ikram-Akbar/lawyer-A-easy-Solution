@@ -54,13 +54,15 @@
 }
 
 /* who we are section */
-.custom-who-we-are {}
+.custom-who-we-are {
+    margin: 100px 0px;
+}
 
 .custom-who-we-are span {
     margin-bottom: 20px;
     display: block;
-    width: 95px;
-    height: 5px;
+    width: 50px;
+    height: 3px;
     background: #f15828;
 }
 
