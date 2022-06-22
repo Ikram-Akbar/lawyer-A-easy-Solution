@@ -74,6 +74,7 @@
 
 .custom-who-we-are p {
     color: #8d8d87;
+    text-align: justify;
 }
 
 /* What we do part  */
@@ -201,6 +202,16 @@
     font-size: 22px;
 }
 
+/* .attorney-content a:hover {
+    border: 1px solid rgb(153, 139, 139);
+    padding: 10px;
+    border-radius: 9px;
+    
+    background: transparent;
+    transition: 0.4s all cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    transition-delay: 1s;
+} */
+
 .main-content {
     position: relative;
 
@@ -227,6 +238,10 @@
 
 .main-content:hover::before {
     height: 100%;
+    border: 1px solid #fff;
+    border-radius: 7px;
+
+
 }
 
 .person-name {
@@ -242,5 +257,46 @@
 
 .main-content:hover .person-name {
     opacity: 0.8;
-    bottom: 50px
+    bottom: 50px;
+
+}
+
+/* language section  */
+.language-section {
+    padding: 100px 0px;
+}
+
+.language-section span {
+    margin: auto;
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #f36c31;
+}
+
+.language-section h1 {
+    margin: 10px 0px 20px;
+    text-align: center;
+    color: #444c86;
+    font-weight: 600;
+}
+
+.language-data {}
+
+.language-data h1 {
+    text-align: start;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.language-data p {
+    text-align: justify;
+}
+
+.language-data a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f2652c;
+    font-weight: 600;
 }
