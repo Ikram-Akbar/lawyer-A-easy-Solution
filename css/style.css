@@ -56,6 +56,7 @@
 /* who we are section */
 .custom-who-we-are {
     margin: 100px 0px;
+
 }
 
 .custom-who-we-are span {
@@ -78,6 +79,10 @@
 /* What we do part  */
 .what-we-do {
     background-color: #f7f8f8;
+    background-image: url(/assets/wwd-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 68%;
 }
 
 
@@ -91,7 +96,7 @@
 
 .top-content h1 {
     color: #1f4f87;
-    margin: 15px 0px 40px;
+    margin: 15px 0px 70px;
 }
 
 .content {
@@ -117,7 +122,8 @@
     /* IE6-9 */
 
 }
-.content:hover::before{
+
+.content:hover::before {
     height: 100%;
 }
 
@@ -130,10 +136,12 @@
     opacity: 0;
     transition: 0.4s all ease-in-out;
 }
-.content:hover .text-content{
+
+.content:hover .text-content {
     opacity: 1;
     bottom: 40%;
 }
+
 .text-content h1 {
     color: #fff;
     font-size: 30px;
@@ -147,7 +155,8 @@
     opacity: 0;
     transition: 0.4s all ease-in-out;
 }
-.content:hover .wwd-icon{
+
+.content:hover .wwd-icon {
     opacity: 1;
     left: 50%;
 }
