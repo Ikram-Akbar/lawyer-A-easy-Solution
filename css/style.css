@@ -349,3 +349,23 @@
     border-radius: 4px;
     text-transform: uppercase;
 }
+
+/* footer section  */
+.footer-section {
+    background-color: #0c1234;
+}
+
+.footer-text {
+    color: #fff;
+}
+
+.footer-icon {
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-icon i {
+    width: 40px;
+    font-size: 26px;
+}
