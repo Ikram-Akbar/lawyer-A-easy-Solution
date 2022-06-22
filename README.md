@@ -1,8 +1,8 @@
-# lawyer-Your Easiest Solution
+
 
 # Project name : Lawyer 
 # Live- Preview : https://lawyer-psd.netlify.app/
-# -------------------------------
+
 
 # Technology
  
